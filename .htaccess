@@ -1,0 +1,5 @@
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+RewriteRule ^ad?$ ad.php [NC,L]
+RewriteRule ^kontakti?$ kontakti.php [NC,L]
